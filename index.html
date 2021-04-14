@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="text-danger">Guess A Number From 1 To 10:</h1>
+    <input placeholder='Add Your Answer' id='answer'>
+    <p id="warningMsg" class="text-info"></p>
+
+    <h1 class="text-success">Computer Answer:</h1>
+    <input placeholder='Computer Answer' id='computerAnswer' disabled='true'>
+    <br><br>
+
+    <button onClick="play()">play</button>
+    <button onClick='window.location.reload()'>Reset</button>
+    <h3 id="label" class="text-warning"></h3>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

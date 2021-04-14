@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  padding-top: 150px;
+}
+.text-success {
+  color: #d9534f;
+}
+.text-danger {
+  color: #5cb85c;
+}
+
+button {
+  padding: 5px 15px;
+  background-color: #0275d8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0059a7;
+}
+
+.text-warning {
+  color: #f0ad4e;
+}
+
+.text-info {
+  color: #5bc0de;
+}
